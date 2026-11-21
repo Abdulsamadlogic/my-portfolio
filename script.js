@@ -1,15 +1,15 @@
 const terminalLines = [
   { type: 'cmd', text: 'whoami' },
-  { type: 'out', html: '<strong>Abdul-Samad</strong> · Software Engineer' },
+  { type: 'out', html: '<strong>Abdul-Samad</strong> · ML &amp; AI Engineer' },
   { type: 'cmd', text: 'cat about.txt' },
-  { type: 'out', html: "Driven by curiosity. Java engineer by day, <br>learning new techs after hours." },
+  { type: 'out', html: "Self-taught Machine Learning &amp; AI Engineer. <br>Building intelligent systems, one model at a time." },
   { type: 'cmd', text: 'cat stack.txt' },
-  { type: 'out', html: 'Java · COBOL · JavaScript · Python' },
+  { type: 'out', html: 'Python · PyTorch · TensorFlow · Scikit-learn · NumPy · <br>Deep Learning · RAG · NLP · Machine Learning' },
   { type: 'cmd', text: 'whereami' },
-  { type: 'out', html: 'Abuja, Nigeria' },
+  { type: 'out', html: 'Lagos, Nigeria' },
   { type: 'cmd', text: './status' },
   { type: 'out', html: '<span class="dot-muted"></span> student <span class="dot-live" style="margin-left:14px;"></span> open to opportunities', accent: true },
-  { type: 'comment', text: '# ps: still self-teaching, one repo at a time.' }
+  { type: 'comment', text: '# ps: exploring ML, deep learning, and AI one experiment at a time.' }
 ];
 
 function typeTerminal(){

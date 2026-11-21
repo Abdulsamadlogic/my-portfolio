@@ -19,9 +19,9 @@
   <nav class="navbar">
     <div class="navlinks" id="navLinks">
       <a href="#top" class="active">Home</a>
+      <a href="#projects">Projects</a>
       <a href="#journey">Experience</a>
       <a href="#opensource">Open Source</a>
-      <a href="#projects">Projects</a>
       <a href="#toolbox">Toolbox</a>
       <a href="#contact">Contact</a>
     </div>
@@ -48,24 +48,23 @@
             </div>
             <div class="terminal-body" id="terminalBody">
               <span class="prompt">$</span> whoami<br>
-              <span class="out"><strong>Abdul-samad</strong> · Software Engineer</span>
+              <span class="out"><strong>Abdul-samad</strong> · ML &amp; AI Engineer</span>
               <span class="prompt">$</span> cat about.txt<br>
-              <span class="out">Self-taught, four years deep. Java by day,<br>learning something new by night.</span>
+              <span class="out">Self-taught Machine Learning &amp; AI Engineer.<br>Building intelligent systems, one model at a time.</span>
               <span class="prompt">$</span> cat stack.txt<br>
-              <span class="out">Java · HTML ·  · JavaScript · Django</span>
+              <span class="out">Python · PyTorch · TensorFlow · Scikit-learn · NumPy · Pandas<br>Deep Learning · RAG · NLP · Machine Learning</span>
               <span class="prompt">$</span> whereami<br>
               <span class="out">Abuja, Nigeria</span>
               <span class="prompt">$</span> ./status<br>
               <span class="out"><span class="dot-muted"></span> graduated</span>
               <span class="out accent"><span class="dot-live"></span> open to opportunities</span>
-              <span class="out comment"># ps: still self-teaching, one repo at a time.</span>
+              <span class="out comment"># ps: exploring ML, deep learning, and AI one experiment at a time.</span>
               <span class="prompt">$</span><span class="cursor"></span>
             </div>
           </div>
 
           <div class="linkrow">
-            <a href="https://github.com/abdulsamad817" target="_blank" rel="noopener" class="linkrow-item"><i class="fa-brands fa-github"></i> github</a>
-            <a href="https://www.linkedin.com/in/abdul-samad-abubakar-68b6b33a8/" target="_blank" rel="noopener" class="linkrow-item"><i class="fa-brands fa-linkedin"></i> linkedin</a>
+            <a href="https://github.com/Abdulsamadlogic" target="_blank" rel="noopener" class="linkrow-item"><i class="fa-brands fa-github"></i> github</a>
              <a href="mailto:abdulsamadabubakar817@gmail.com"><i class="fa-solid fa-envelope"></i> email</a>
           </div>
         </div>
@@ -107,6 +106,53 @@
   </section>
 </main>
 
+<section id="projects" class="projects-section">
+  <div class="wrap">
+    <div class="proj-eyebrow">PROJECTS</div>
+    <h2 class="proj-title">Things I've built</h2>
+    <p class="proj-subtitle">A mix of shipped tools and work still in progress.</p>
+
+    <div class="proj-grid">
+
+      <div class="proj-card reveal">
+        <h3 class="proj-card-title">Dataset Quality &amp; Fine-Tuning Lab</h3>
+        <p class="proj-card-desc">An end-to-end LLM evaluation lab that audits dataset quality, detects review risks, generates active-review queues, and fine-tunes models with 4-bit NF4 QLoRA to predict five human quality ratings.</p>
+        <div class="proj-tags">
+          <span>Python</span><span>PyTorch</span><span>Hugging Face</span><span>PEFT / QLoRA</span><span>Scikit-learn</span><span>Pytest</span>
+        </div>
+        <a href="https://github.com/Abdulsamadlogic/dataset-quality-finetuning-lab" target="_blank" rel="noopener" class="proj-link">View Code &rarr;</a>
+      </div>
+
+      <div class="proj-card reveal">
+        <h3 class="proj-card-title">Legacy Code Agent</h3>
+        <p class="proj-card-desc">An execution-based benchmark where LLM agents analyze and repair legacy COBOL code. Solutions are compiled with GnuCOBOL and tested against hidden cases, with successful trajectories converted into QLoRA fine-tuning data for Qwen2.5-Coder.</p>
+        <div class="proj-tags">
+          <span>Python</span><span>PyTorch</span><span>Claude</span><span>Qwen2.5-Coder</span><span>QLoRA</span><span>COBOL</span><span>GnuCOBOL</span>
+        </div>
+        <a href="https://github.com/Abdulsamadlogic/legacy-code-agent" target="_blank" rel="noopener" class="proj-link">View Code &rarr;</a>
+      </div>
+
+      <div class="proj-card reveal">
+        <h3 class="proj-card-title">COBOL Quality QLoRA Lab</h3>
+        <p class="proj-card-desc">An experimental benchmark that fine-tunes language models with QLoRA to generate COBOL test suites, validates them against reference programs, and measures test effectiveness through GnuCOBOL mutation testing and execution-based mutation scores.</p>
+        <div class="proj-tags">
+          <span>Python</span><span>PyTorch</span><span>Hugging Face</span><span>QLoRA</span><span>COBOL</span><span>GnuCOBOL</span><span>Mutation Testing</span>
+        </div>
+        <a href="https://github.com/Abdulsamadlogic/cobol-quality-qlora-lab" target="_blank" rel="noopener" class="proj-link">View Code &rarr;</a>
+      </div>
+
+      <div class="proj-card reveal">
+        <h3 class="proj-card-title">Agentic Ticket Triage</h3>
+        <p class="proj-card-desc">A configurable, multi-tenant AI support system that classifies tickets, detects urgency, selects tenant-specific tools, and applies business policies to return structured triage decisions, with confidence-based escalation.</p>
+        <div class="proj-tags">
+          <span>Python</span><span>Qwen 2.5</span><span>PyTorch</span><span>Transformers</span><span>PEFT / QLoRA</span><span>FastAPI</span><span>Docker</span><span>Weights &amp; Biases</span>
+        </div>
+        <a href="https://github.com/Abdulsamadlogic/agentic-ticket-triage" target="_blank" rel="noopener" class="proj-link">View Code &rarr;</a>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <section id="journey" class="journey-section">
   <div class="wrap">
@@ -117,23 +163,23 @@
 
       <div class="tl-item reveal">
         <span class="tl-dot"></span>
-        <div class="tl-date">2025 December – Fabuary 2026</div>
+        <div class="tl-date">January 2026 — April 2026</div>
+        <h3 class="tl-role">Machine Learning Engineer · <span class="tl-company">Bespoke Lab</span></h3>
+        <p class="tl-desc">Fine-tuned machine-learning models and evaluated ML tasks across multiple codebases, reviewing model-generated work and providing technical assessments as part of AI training workflows.</p>
+      </div>
+
+      <div class="tl-item reveal">
+        <span class="tl-dot"></span>
+        <div class="tl-date">October 2025 — February 2026</div>
         <h3 class="tl-role">Task Reviewer &amp; Task Creator · <span class="tl-company">Parsewave</span></h3>
         <p class="tl-desc">Created and submitted Java 7 batch-processing tasks for the Terminal-Bench 2.0 platform, fixing a broken Docker base image, tightening task write-ups to fit a strict word limit, and closing gaps in test coverage. Also completed recorded reviews of tasks across Ruby and C# submissions.</p>
       </div>
 
       <div class="tl-item reveal">
         <span class="tl-dot"></span>
-        <div class="tl-date">2024 – 2025</div>
-        <h3 class="tl-role">Software Developer · <span class="tl-company">School Project</span></h3>
-        <p class="tl-desc">Joined a team as a software developer to build a school portal, contributing to features that supported student and staff use of the platform</p>
-      </div>
-
-      <div class="tl-item reveal">
-        <span class="tl-dot"></span>
-        <div class="tl-date">2023 – 2027</div>
-        <h3 class="tl-role">B.Sc, Computer Science · <span class="tl-company">University Of Lagos</span></h3>
-        <p class="tl-desc">Coursework across data structures, algorithms, and software engineering, alongside building a student campus app for school updates, chats, and a peer marketplace, plus an AI agent that answers student questions about the school</p>
+        <div class="tl-date">July 2025 — September 2025</div>
+        <h3 class="tl-role">Software Engineer · <span class="tl-company">Mercor</span></h3>
+        <p class="tl-desc">Debugged Python code, analyzed model failures, and provided technical feedback to support improvements in model performance and software quality.</p>
       </div>
 
     </div>
@@ -179,58 +225,11 @@
 
 
 
-<section id="projects" class="projects-section">
-  <div class="wrap">
-    <div class="proj-eyebrow">PROJECTS</div>
-    <h2 class="proj-title">Things I've built</h2>
-    <p class="proj-subtitle">A mix of shipped tools and work still in progress.</p>
-
-    <div class="proj-grid">
-
-      <div class="proj-card reveal">
-        <h3 class="proj-card-title">JobVoice</h3>
-        <p class="proj-card-desc">An AI-powered platform for preparing for mock interviews lets you practice answering interview questions and get feedback to help you walk in more prepared</p>
-        <div class="proj-tags">
-          <span>HTML5</span><span>CSS</span> <span>JavaScript</span><span>Django</span>  <span>Mongo.DB</span>
-        </div>
-        <a href="https://interview-assistant-nu.vercel.app/" target="_blank" rel="noopener" class="proj-link">Live Demo &rarr;</a>
-      </div>
-
-      <div class="proj-card reveal">
-        <h3 class="proj-card-title">Student Campus App</h3>
-        <p class="proj-card-desc">A campus platform where students can chat, see school updates, and post things to sell. Still in development.</p>
-        <div class="proj-tags">
-          <span>HTML</span><span>JavaScript</span><span>CSS</span><span>PostgreSQL</span><span>Django</span>
-        </div>
-        <a href="https://github.com/abdulsamad817/contribute-project-task/tree/main/templates" target="_blank" rel="noopener" class="proj-link">View Code &rarr;</a>
-      </div>
-
-      <div class="proj-card reveal">
-        <h3 class="proj-card-title">Social Media Automation Tool</h3>
-        <p class="proj-card-desc">A tool that automates account actions across multiple social platforms, with batch account management and a live runtime log.</p>
-        <div class="proj-tags">
-          <span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
-        </div>
-        <a href="https://automation-qq6b.onrender.com/" target="_blank" rel="noopener" class="proj-link">Live Demo &rarr;</a>
-      </div>
-
-      <div class="proj-card reveal">
-        <h3 class="proj-card-title">Coffee Website</h3>
-        <p class="proj-card-desc">A front-end coffee shop website built to practice layout, styling, and interactivity.</p>
-        <div class="proj-tags">
-          <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
 <section id="toolbox" class="toolbox-section">
   <div class="wrap">
     <div class="tb-eyebrow">TOOLBOX</div>
     <h2 class="tb-title">Tech I build with</h2>
-    <p class="tb-subtitle">From Java and COBOL to full-stack web apps, this is the stack I reach for.</p>
+    <p class="tb-subtitle">I use these tools to build, fine-tune, and evaluate machine-learning systems.</p>
 
     <div class="tb-grid">
       <div class="tb-badge tb-claude"><img src="https://cdn.simpleicons.org/claude/ffffff" alt="Claude"></div>
@@ -238,7 +237,7 @@
       <div class="tb-badge tb-cobol"><span>COBOL</span></div>
       <div class="tb-badge tb-linux"><img src="https://cdn.simpleicons.org/linux/ffffff" alt="Linux"></div>
       <div class="tb-badge tb-git"><img src="https://cdn.simpleicons.org/git/ffffff" alt="Git"></div>
-      <div class="tb-badge tb-js"><img src="https://cdn.simpleicons.org/javascript/ffffff" alt="JavaScript"></div>
+      <div class="tb-badge tb-java"><img src="https://cdn.simpleicons.org/openjdk/ffffff" alt="Java"></div>
     </div>
 
     <div class="tb-marquee">
@@ -256,6 +255,12 @@
         <span><img src="https://cdn.simpleicons.org/django/9C9C9C" alt="Django"><i>Django</i></span>
         <span><img src="https://cdn.simpleicons.org/linux/9C9C9C" alt="Linux"><i>Linux</i></span>
         <span><img src="https://cdn.simpleicons.org/ubuntu/9C9C9C" alt="Ubuntu"><i>Ubuntu</i></span>
+        <span><img src="https://cdn.simpleicons.org/pytorch/9C9C9C" alt="PyTorch"><i>PyTorch</i></span>
+        <span><img src="https://cdn.simpleicons.org/scikitlearn/9C9C9C" alt="scikit-learn"><i>scikit-learn</i></span>
+        <span><img src="https://cdn.simpleicons.org/numpy/9C9C9C" alt="NumPy"><i>NumPy</i></span>
+        <span><img src="https://cdn.simpleicons.org/kaggle/9C9C9C" alt="Kaggle"><i>Kaggle</i></span>
+        <span><img src="https://cdn.simpleicons.org/tensorflow/9C9C9C" alt="TensorFlow"><i>TensorFlow</i></span>
+        <span><img src="https://cdn.simpleicons.org/huggingface/9C9C9C" alt="Hugging Face"><i>Hugging Face</i></span>
         <span><img src="https://cdn.simpleicons.org/docker/9C9C9C" alt="Docker"><i>Docker</i></span>
         <span><img src="https://cdn.simpleicons.org/git/9C9C9C" alt="Git"><i>Git</i></span>
         <span><img src="https://cdn.simpleicons.org/github/9C9C9C" alt="GitHub"><i>GitHub</i></span>
@@ -269,6 +274,12 @@
         <span><img src="https://cdn.simpleicons.org/django/9C9C9C" alt="Django"><i>Django</i></span>
         <span><img src="https://cdn.simpleicons.org/ubuntu/9C9C9C" alt="Ubuntu"><i>Ubuntu</i></span>
         <span><img src="https://cdn.simpleicons.org/linux/9C9C9C" alt="Linux"><i>Linux</i></span>
+        <span><img src="https://cdn.simpleicons.org/pytorch/9C9C9C" alt="PyTorch"><i>PyTorch</i></span>
+        <span><img src="https://cdn.simpleicons.org/scikitlearn/9C9C9C" alt="scikit-learn"><i>scikit-learn</i></span>
+        <span><img src="https://cdn.simpleicons.org/numpy/9C9C9C" alt="NumPy"><i>NumPy</i></span>
+        <span><img src="https://cdn.simpleicons.org/kaggle/9C9C9C" alt="Kaggle"><i>Kaggle</i></span>
+        <span><img src="https://cdn.simpleicons.org/tensorflow/9C9C9C" alt="TensorFlow"><i>TensorFlow</i></span>
+        <span><img src="https://cdn.simpleicons.org/huggingface/9C9C9C" alt="Hugging Face"><i>Hugging Face</i></span>
       </div>
     </div>
 
@@ -293,12 +304,11 @@
   <div class="wrap footer-inner">
     <div class="footer-left">
       <span class="footer-brand">Abdul-Samad<span class="footer-dot">.</span>dev</span>
-      <span class="footer-tagline">Building tools & products in Java, one careful line at a time.</span>
+      <span class="footer-tagline">Building practical machine-learning systems, one model at a time.</span>
     </div>
 
     <div class="footer-links">
-      <a href="https://github.com/abdulsamad817" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/abdul-samad-abubakar-68b6b33a8/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Abdulsamadlogic" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
       <a href="mailto:abdulsamadabubakar817@gmail.com"><i class="fa-solid fa-envelope"></i></a>
     </div>
   </div>
