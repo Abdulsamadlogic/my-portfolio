@@ -341,6 +341,11 @@ nav.navbar{
   font-size:0.9rem;
   font-weight:500;
 }
+.proj-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+}
 .proj-link:hover{
   text-decoration:underline;
 }
